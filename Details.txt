@@ -1,0 +1,131 @@
+
+Topics:
+
+  Requirements to Start Coding:
+    Downloads & Installation:
+      1. VSCode - https://code.visualstudio.com/download
+      2. NodeJS - https://nodejs.org/en/download
+
+      Install both the downloaded Items
+  
+  VScode Extensions:
+    Live Server - Ritwick Dey --> Preview HTML, CSS, JS
+    vscode Icons - VsCode Icons Team --> file & folder icons
+    EsLint - Microsoft --> JS Linting
+    HTML CSS Support - ecmel --> HTML, CSS - Intellisense
+    HTML Boilerplate - Sidthesloth --> Boilerplate
+    Bracket Pair Colorization Toggler - Dzhavat Ushev - Identify code blocks with different colors
+    Tabnine: AI Autocomplete - AI Tool
+    Prettier: Code Formatting
+  
+  Code Formatting Setup:
+
+    Step 1: Ctrl + Shift + P
+    Step 2: Choose - Preferences: Open User Settings ( JSON )
+    Step 3: Copy paste the Configurations Provides
+
+  Note: if any Extension is deprecated use the same type of extension with more no of downloads
+
+  Opening VSCode:
+    Step 1: New Fresh VSCode Window
+    Step 2: File -> Open Foler ( Select the Folder that You want to work with )
+    Step 3: Make Sure the Title of the Window is the folder that You selected
+    Step 4: Create files or folder inside you selected folder using the explorer icons
+
+  JS Basics:
+
+    BrowserJS Vs NodeJS
+
+    variables:
+      var, let, const
+      LHS vs RHS
+    
+    functions:
+      browser js default functions 
+        alert(); // alert the user
+        prompt(); // input from the user
+        confirm(); // confirming the next steps from the user
+
+
+Task:
+  Day 2: Setup the VSCode Properly with formatting setup as per the discussion today  
+
+Next Session:
+
+  DataTypes:
+      Primitive:
+        number, string, boolean, null, undefined
+
+      Composite: combination multiple types
+        Array --> [1, 'sanjay', boolean, null]
+          Note: an array can also contain compsoite types ( Array, Object )
+
+            Eg: Array can contain array itself
+
+              [[1, 2, 3], ['Sanjay', 'Santosh', 'Manoj'], ['Python', 'JavaScript']]
+
+                Array can also contain objects
+              [ 
+                { name: 'Manoj', age: 12, origin: 'Tanjavur' },
+                { name: 'Sanjay', age: 25, origin: 'Chennai' },
+                { name: 'Manikandan', age: 24, origin: 'Bengaluru' }
+              ]
+
+        Object --> {
+          name: 'Sanjay',
+          role: 'Developer',
+          expe: 10,
+        }
+          Object Value can also be a composite value
+            Eg: Object can contain array, object
+                {
+                  "skills": ["Python", "Javascript"],
+                  "contact": {
+                    "mobile": "9090909090",
+                    "email": "sanjay@gmail.com",
+                    "website": "sanjay.com"
+                  },
+                  "isIndian": true
+                }
+
+
+    Scope
+      global ---> parent scope every scopes ()
+
+        function ( inside function (){} )
+
+        block {}
+
+      {} ---> block of lines
+
+      [] ---> Array of elements
+
+      () ---> methods/functions
+
+  Operators:
+
+    Arithemetic: +, -, *, /, %( 5 % 2 ---> 1 ( remainder) )
+    Assignment: =
+    Logical: &(and), |(or), !(not), &&, ||
+    compariason: >, <, >=, <=, !=, ==, ===
+    Boolean: true or false
+
+  Conditional Statements:
+    if else
+    switch case
+    == vs ===
+  
+  looping, conditions, simple problems
+
+    looping: it is a process of repeating a block statements again and again
+
+    for, while, do while
+
+    how many times or when to stop the looping
+
+    concepts in looping
+    initialization, termination condition, inc/drec
+
+
+
+    
